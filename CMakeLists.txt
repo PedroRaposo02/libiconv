@@ -19,5 +19,6 @@ add_library(libiconv STATIC ${SOURCES})
 # Add include directories
 target_include_directories(libiconv 
     PUBLIC 
-        .
+        include
+        source
 )
